@@ -1,0 +1,25 @@
+{
+  "name": "RAS",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "RAS_Shared": {
+        "$path": "src/sdk/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "RAS_Server": {
+        "$path": "src/sdk/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "RAS_Client": {
+          "$path": "src/sdk/client"
+        }
+      }
+    }
+  }
+}
